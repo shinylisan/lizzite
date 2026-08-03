@@ -19,8 +19,6 @@ dnf5 -y copr enable imput/helium
 dnf5 -y install helium-bin
 dnf5 -y copr disable imput/helium
 
-bash /ctx/build_files/50-fix-opt.sh
-
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
