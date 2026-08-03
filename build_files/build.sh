@@ -15,8 +15,9 @@ cp -avf "/ctx/system_files"/. /
 # this installs a package from fedora repos
 dnf5 install -y tmux aircrack-ng
 
-dnf copr enable imput/helium
-dnf install helium-bin
+dnf5 -y copr enable imput/helium
+dnf5 -y install helium-bin
+dnf5 -y copr disable imput/helium
 
 # Use a COPR Example:
 #
