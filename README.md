@@ -1,5 +1,5 @@
 # Changes
-aircrack-ng and VLC are installed as system packages
+aircrack-ng, android-tools and VLC are installed as system packages
 
 Lutris is removed from the image
 
